@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "lab4"
+version = "0.1.0"
+description = "Optimization methods - Lab #4"
+authors = ["Kirill Ankudinov <kirill.ankudinov.94@mail.ru>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+mypy_path = "src"
+explicit_package_bases = true
+strict = true
+disallow_untyped_calls = false
